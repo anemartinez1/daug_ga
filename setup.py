@@ -14,7 +14,6 @@ setup(
   download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.4.tar.gz',   
   keywords = ['Data Augmentation', 'Distributions', 'Single-Objective'],  
   long_description=long_description,
-  long_description_content_type="text/x-rst", 
   install_requires=[    
           'pandas',
           'opencv-python',

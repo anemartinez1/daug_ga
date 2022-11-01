@@ -1,11 +1,11 @@
 from distutils.core import setup
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+long_description = (this_directory / "README.rst").read_text()
 setup(
   name = 'daug_ga',         
   packages = ['daug_ga'],   
-  version = '0.3',      
+  version = '0.4',      
   license='MIT',        
   description = 'This is a package that makes data augmentation by optimizing the distributions of the variables using a single objective algorithm.',
   author = 'Ane Martínez and Elene Astondoa',              
@@ -14,7 +14,7 @@ setup(
   download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.3.tar.gz',   
   keywords = ['Data Augmentation', 'Distributions', 'Single-Objective'],  
   long_description=long_description,
-  long_description_content_type="text/markdown", 
+  long_description_content_type="text/x-rst", 
   install_requires=[    
           'pandas',
           'opencv-python',

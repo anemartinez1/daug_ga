@@ -5,13 +5,13 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'daug_ga',         
   packages = ['daug_ga'],   
-  version = '0.1',      
+  version = '0.2',      
   license='MIT',        
   description = 'This is a package that makes data augmentation by optimizing the distributions of the variables using a single objective algorithm.',
   author = 'Ane Martínez and Elene Astondoa',              
   author_email = 'anemartinezorellana@outlook.es',   
   url = 'https://github.com/anemartinez1/daga_aug',   
-  download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.1.tar.gz',   
+  download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.2.tar.gz',   
   keywords = ['Data Augmentation', 'Distributions', 'Single-Objective'],   
   install_requires=[    
           'pandas',

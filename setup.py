@@ -11,7 +11,7 @@ setup(
   author = 'Ane Martínez and Elene Astondoa',              
   author_email = 'anemartinezorellana@outlook.es',   
   url = 'https://github.com/anemartinez1/daga_aug',   
-  download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.2.tar.gz',   
+  download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.3.tar.gz',   
   keywords = ['Data Augmentation', 'Distributions', 'Single-Objective'],  
   long_description=long_description,
   long_description_content_type="text/markdown", 

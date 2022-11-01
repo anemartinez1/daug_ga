@@ -31,7 +31,7 @@ Usando ``pip``:
 
 1. Primero vamos a actualizar pip a la última versión:
 
-  `$ pip install --upgrade pip`
+  `$ ! pip install --user --upgrade pip`
   
 2. Una vez actualizado este comando procederemos a instalar la librería ``daga``:
 

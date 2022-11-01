@@ -14,7 +14,7 @@ Astondoa <https://github.com/eleneastondoa,>`__ como trabajo para la
 universidad.
 
 Estructura de carpetas
-----------------------
+-----------------------
 
 -  daug_ga/
 
@@ -27,10 +27,10 @@ Estructura de carpetas
 -  README.md
 
 Instalación
------------
+------------
 
 Dependencias
-~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 daga requiere:
 
@@ -42,7 +42,7 @@ daga requiere:
 -  scikit-learn (>=1.1.2)
 
 Instalación para el usuario
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usando ``pip``:
 
@@ -56,7 +56,7 @@ Usando ``pip``:
 ``$ pip install daug_ga``
 
 Links importantes
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 -  Repositorio del código fuente:
    https://github.com/anemartinez1/daug_ga

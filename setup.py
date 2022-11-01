@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'daga_aug',         
-  packages = ['daga_aug'],   
+  name = 'daug_ga',         
+  packages = ['daug_ga'],   
   version = '0.1',      
   license='MIT',        
   description = 'This is a package that makes data augmentation by optimizing the distributions of the variables using a single objective algorithm.',

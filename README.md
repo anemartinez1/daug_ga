@@ -1,4 +1,4 @@
-# daga
+# Data Augmentation with Genetic Algorithm
 
 **daug_ga** es un acrónimo de **Data Augmentation with Genetic Algorithm**; este es un módulo de Python para el aumento de datos basado en la librería SDV. Este tiene como objetivo obtener la distribución correspondiente a cada variable y así conseguir mejores resultados en la generación de datos sintéticos. Para ello hace uso de un algortimo genético mono objetivo.
 

@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+daug_ga/__init__.py
+daug_ga/functions.py
+daug_ga.egg-info/PKG-INFO
+daug_ga.egg-info/SOURCES.txt
+daug_ga.egg-info/dependency_links.txt
+daug_ga.egg-info/requires.txt
+daug_ga.egg-info/top_level.txt

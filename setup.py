@@ -1,7 +1,6 @@
-from setuptools import setup
+from distutils.core import setup
 from pathlib import Path
-this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+
 setup(
   name = 'daug_ga',         
   packages = ['daug_ga'],   
@@ -13,8 +12,6 @@ setup(
   url = 'https://github.com/anemartinez1/daga_aug',   
   download_url = 'https://github.com/anemartinez1/daug_ga/archive/refs/tags/0.5.tar.gz',   
   keywords = ['Data Augmentation', 'Distributions', 'Single-Objective'],  
-  long_description=long_description,
-  long_description_content_type="text/markdown",
   install_requires=[    
           'pandas',
           'opencv-python',

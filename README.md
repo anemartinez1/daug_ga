@@ -68,7 +68,7 @@ train, test = split_data_class.split_train_test()
 
 Aplicamos la función RLGeneticAlgorithm 
 ```
-genetic_class = RLGeneticAlgorithm(df=df, tournament_size_per=0.2, max_generations=2, population_size=10, verbose_model=True, train_size=0.75, x_column_names=x_column_names, y_column_name=y_column_name, train=train, test=test) 
+genetic_class = RLGeneticAlgorithm(df=df, tournament_size_per=0.2, max_generations=2, population_size=10, verbose_model=True, train_size=0.75, x_column_names=x_column_names, y_column_name=y_column_name, train=train, test=test, augmentation_method = 'Gaussian') 
 
 last_population, last_population_fitness = genetic_class.run(df=df, cross_prob=1.0, mut_prob=2.0, elitism=False) 
 
@@ -77,7 +77,7 @@ best_individual, best_individual_fitness = last_population[0], last_population_f
 
 Aplicamos la función daga_augmentation 
 ```
-data_augmentation_func = data_augmentation(df=df, tournament_size_per=0.2, max_generations=3, population_size=10, verbose_model=True, train_size=0.75, x_column_names=x_column_names, y_column_name=y_column_name, train=train, test=test, distribution=best_individual) 
+data_augmentation_func = data_augmentation(df=df, tournament_size_per=0.2, max_generations=3, population_size=10, verbose_model=True, train_size=0.75, x_column_names=x_column_names, y_column_name=y_column_name, train=train, test=test, distribution=best_individual, augmentation_method = 'Gaussian') 
 
 augmented_data = data_augmentation_funcion.GaussianCopula_augmentation() 
 

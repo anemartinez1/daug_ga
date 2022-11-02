@@ -1,8 +1,8 @@
 # Data Augmentation with Genetic Algorithm
 
-**daug_ga** es un acrónimo de **Data Augmentation with Genetic Algorithm**; este es un módulo de Python para el aumento de datos basado en la librería SDV. Este tiene como objetivo obtener la distribución correspondiente a cada variable y así conseguir mejores resultados en la generación de datos sintéticos. Para ello hace uso de un algortimo genético mono objetivo.
+**daug_ga** es un acronimo de **Data Augmentation with Genetic Algorithm**; este es un modulo de Python para el aumento de datos basado en la libreria SDV. Este tiene como objetivo obtener la distribucion correspondiente a cada variable y asi conseguir mejores resultados en la generacion de datos sinteticos. Para ello hace uso de un algortimo genetico mono objetivo.
 
-El projecto se empezó en 2022 por [Ane Martínez](https://github.com/anemartinez1, "Ane Martínez") y [Elene Astondoa](https://github.com/eleneastondoa, "Elene Astondoa") como trabajo para la universidad.
+El projecto se empezo en 2022 por [Ane Martinez](https://github.com/anemartinez1, "Ane Martinez") y [Elene Astondoa](https://github.com/eleneastondoa, "Elene Astondoa") como trabajo para la universidad.
 
 ## Estructura de carpetas
 - daug_ga/
@@ -13,7 +13,7 @@ El projecto se empezó en 2022 por [Ane Martínez](https://github.com/anemartine
 - setup.cfg
 - README.md
 
-## Instalación
+## Instalacion
 
 ### Dependencias
 
@@ -24,15 +24,15 @@ El projecto se empezó en 2022 por [Ane Martínez](https://github.com/anemartine
 - sdv (>=0.17.1)
 - scikit-learn (>=1.1.2)
 
-### Instalación para el usuario
-Usando ``pip``, el sistema de gestión de paqutes:
+### Instalacion para el usuario
+Usando ``pip``, el sistema de gestion de paquetes:
 
-1. Actualizamos la versión de ``pip``:
+1. Actualizamos la version de ``pip``:
 ```
 pip install --user --upgrade pip
 ```
   
-2. Una vez actualizado este comando procederemos a instalar la librería ``daua_ga``:
+2. Una vez actualizado este comando procederemos a instalar la libreria ``daug_ga``:
 ```
 pip install daug_ga
 ```
@@ -90,6 +90,6 @@ data_augmentation_funcion.plot_new_data_vs_original_data(augmented_data)
 
 ### Links importantes
 
-- Repositorio del código fuente: <https://github.com/anemartinez1/daug_ga>
+- Repositorio del codigo fuente: <https://github.com/anemartinez1/daug_ga>
 - Descargar versiones: <https://pypi.org/project/daug_ga/>
 - Seguimiento de problemas: <https://github.com/anemartinez1/daug_ga/issues>

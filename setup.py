@@ -5,7 +5,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'daug_ga',         
   packages = ['daug_ga'],   
-  version = '0.4',      
+  version = '0.5',      
   license='MIT',        
   description = 'This is a package that makes data augmentation by optimizing the distributions of the variables using a single objective algorithm.',
   author = 'Ane Martínez and Elene Astondoa',              

@@ -38,8 +38,9 @@ pip install daug_ga
 ```
 
 ### Ejemplo de uso
-
-`$ from daug_ga import split_data, RLGeneticAlgorithm, data_augmentation`
+```
+from daug_ga import split_data, RLGeneticAlgorithm, data_augmentation
+```
 
 Cargamos los datos
 

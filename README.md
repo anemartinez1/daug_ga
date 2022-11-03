@@ -78,11 +78,11 @@ best_individual, best_individual_fitness = last_population[0], last_population_f
 
 Aplicamos la función daga_augmentation 
 ```
-data_augmentation_func = data_augmentation(df=df, tournament_size_per=0.2, max_generations=3, population_size=10, verbose_model=True, train_size=0.75, x_column_names=x_column_names, y_column_name=y_column_name, train=train, test=test, distribution=best_individual, augmentation_method = 'Gaussian') 
+data_augmentation_funcion = data_augmentation(df=df, tournament_size_per=0.2, max_generations=3, population_size=10, verbose_model=True, train_size=0.75, x_column_names=x_column_names, y_column_name=y_column_name, train=train, test=test, distribution=best_individual, augmentation_method = 'Gaussian') 
 
-augmented_data = data_augmentation_funcion.GaussianCopula_augmentation() 
+augmented_data = data_augmentation_funcion.CopulaGAN_augmentation() 
 
-data_augmentation_funcion.plot_new_data_vs_original_data(augmented_data)
+data_augmentation_funcion.plot_new_data_vs_original_data_d(augmented_data)
 ```
 
 ![Histogram plot](example/iris_histogram_plot.jpg?raw=true "Distribution plot")

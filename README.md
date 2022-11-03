@@ -85,7 +85,7 @@ augmented_data = data_augmentation_funcion.CopulaGAN_augmentation()
 data_augmentation_funcion.plot_new_data_vs_original_data_d(augmented_data)
 ```
 
-![Comparation of distributions of original and synthetic data](example/iris_density_plot.jpg?raw=true "Distribution plot")
+![Comparation of distributions of original and synthetic data](example/iris_density_plot.png?raw=true "Distribution plot")
 
 
 ### Links importantes

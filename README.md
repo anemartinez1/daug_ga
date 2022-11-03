@@ -84,7 +84,6 @@ augmented_data = data_augmentation_funcion.GaussianCopula_augmentation()
 
 data_augmentation_funcion.plot_new_data_vs_original_data(augmented_data)
 ```
-![Density plot](example/iris_density_plot.jpg?raw=true "Density plot")
 
 ![Histogram plot](example/iris_histogram_plot.jpg?raw=true "Distribution plot")
 
